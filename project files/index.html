@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smythe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body >
+    <header class="header">
+        <div class="title-name">
+            <h1>
+                Jimmy's Diner
+            </h1>
+            <p class="sub-title">
+                The best burgers and pizza in town.
+            </p>
+        </div>
+    </header>
+    <main id="main"> 
+
+        <div class="menu-contain" id="menu-container"></div>
+        <div class="order-contain" id="order-container"></div>
+
+        
+        
+    </main>
+    
+   
+    <script src="index.js" type="module"></script>
+</body>
+<modal class="form" id="form">
+    <form action="#" method="post" id="order-form"  class="modal-form">
+        <p class="closeBtn" id="close">X</p>
+        <h2 class="modal-title">Enter card details</h2>
+
+        
+        <input type="text" id="name" class="modal-name" name="name" placeholder="Enter name" required>
+        <br>
+        
+        <input type="text" id="modal-card" class="modal-card" name="card" placeholder="Enter Card number" required>
+        <br>
+        
+        <input type="text" id="CVV" class="modal-cvv" name="CVV" placeholder="Enter CVV" required>
+        <br>
+        <button type="submit" class="submit-btn" id="submit-btn">Submit Order</button>
+</modal>
+
+<modal class="goodbye-msg" id="goodbye-msg">
+    <div class="thank-you-content">
+        <p class="thank-you-msg" id="thank-you"></p>
+    </div>
+</html>
