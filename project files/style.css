@@ -7,10 +7,42 @@ html{
     yellow 10%, dodgerblue 50%);
     overflow: auto;
     
-    
+  }  
+  @media screen and (max-width: 600px) {
+
+    body {
+      margin-top: 0;
+      margin-bottom: 0;
+      border: none;
+      height: auto;
+    }
+  
+    .menu {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .item1 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .emoji {
+      margin-bottom: 10px;
+    }
+  
+    .btn-complete,
+    .total-text {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
     
    
-}
+
 body{
     max-width: 600px;
     width: 100%;
