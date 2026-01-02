@@ -2,7 +2,10 @@ html{
     margin: 0;
     background-color:blue;
     font-family: "Smythe", system-ui;
-    overflow: hidden;
+    background-color: red; /* Fallback color */
+    background-image: radial-gradient(circle closest-side at 25% 75%, red, 
+    yellow 10%, dodgerblue 50%);
+    overflow: auto;
     
     
     
