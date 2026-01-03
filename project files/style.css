@@ -11,11 +11,13 @@ html{
   @media screen and (max-width: 600px) {
 
     html, body {
+    
       margin-top: 0;
       margin-bottom: 0;
       border: none;
       height: auto;
       overflow: hidden;
+      text-align: center;
     }
   
     .menu,
