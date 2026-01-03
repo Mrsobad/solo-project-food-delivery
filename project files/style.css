@@ -16,7 +16,7 @@ html{
       margin-bottom: 0;
       border: none;
       height: auto;
-      overflow: hidden;
+      overflow-x: hidden;
       text-align: center;
     }
   
@@ -29,6 +29,12 @@ html{
       margin-left: auto;
       margin-right: auto;
       overflow-x: hidden;
+    }
+    .header{
+        background-image: url('images/burger.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
   
     .item1 {
