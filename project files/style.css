@@ -52,7 +52,8 @@ html{
   
     .btn-complete,
     .total-text,
-    .submit-btn {
+    .submit-btn,
+    .btn-complete {
       margin-left: auto;
       margin-right: auto;
     }
