@@ -41,13 +41,13 @@ html{
       flex-direction: column;
       align-items: center;
       text-align: center;
-      padding-left: 10px;
-      padding-right: 10px;
+      padding-left: .63em;
+      padding-right: .63em;;
       overflow: hidden;
     }
   
     .emoji {
-      margin-bottom: 10px;
+      margin-bottom: .63em;;
     }
   
     .btn-complete,
@@ -73,7 +73,7 @@ body{
     height: 100vh;
     margin: auto;
     background-color: #F5F5F5 ;
-    border: 2mm ridge rgba(75, 50, 220, 0.6);
+    border: 2px ridge rgba(75, 50, 220, 0.6);
     overflow: auto;
     position: relative;
     
@@ -100,8 +100,8 @@ body{
 
 
 .title-name{
-    padding-top: 60px;
-    padding-left: 50px;
+    padding-top: 3.75em;
+    padding-left: 3.13em;
 }
 h1, .sub-title{
     margin-top: 0;
@@ -159,7 +159,7 @@ h1{
 .item1{
     margin: auto;
     display: flex;
-    margin-top: 40px;
+    margin-top: 2.5em;
     max-width: 508px;
     width: 100%;
     height: auto;
@@ -186,6 +186,9 @@ h1{
     
 
 .btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    color: black;
     display: flex;
     width: 50px;
     height: 50px;
@@ -220,7 +223,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 3.13em;
     max-width: 508px;
     width: 100%;
     max-height: 60px;
@@ -242,8 +245,8 @@ h1{
     background: transparent;
     border: none;
     color: #757575;
-    margin-top: 40px;
-    margin-left: 10px;
+    margin-top: 2.5em;
+    margin-left: .63em;
     height: 20px;
     width: 45px;
     
@@ -286,7 +289,7 @@ h1{
     flex-direction: row;
     align-items: center;
     font-size: 1.75rem;
-    margin-left: 5px;
+    margin-left: 0.31em;
     color: #000000;
     margin-bottom: 0;
 }
@@ -301,13 +304,13 @@ h1{
     font-size: 1.75rem;
     color: #000000;
     margin-bottom: 0;
-    margin-top: 10px;
+    margin-top: 0.63em;
 }
 .order-completed{
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 3.13em;
+    margin-top: 3.13em;
   
 
     
@@ -368,7 +371,7 @@ h1{
     width: 100%;
     max-height: 71.3px;
     height: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
     color: #757575;
 }
 
@@ -394,7 +397,7 @@ h1{
 }
 .thank-you-msg{
     display: flex;
-    margin: 15px auto;
+    margin: 1em auto;
     align-items: center;
     justify-content: center;
     font-size: 2rem;
@@ -409,5 +412,5 @@ h1{
     font-size: 1.75rem;
     color: black;
     margin-bottom: 0;
-    margin-top: 20px;
+    margin-top: 1.25em;
 }
