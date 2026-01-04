@@ -25,12 +25,13 @@ html{
     .all-orders,
     .total-text, 
     .header{
-      width: 100%;
+      width: 90%;
       margin-left: auto;
       margin-right: auto;
       overflow-x: hidden;
     }
     .header{
+        width: 100%;
         background-image: url('images/burger.png');
         background-position: center;
         background-repeat: no-repeat;
