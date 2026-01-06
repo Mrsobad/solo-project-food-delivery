@@ -1,81 +1,27 @@
 html{
-    margin: 0;
-    background-color:blue;
+    margin: 0 auto;
     font-family: "Smythe", system-ui;
-    background-color: red; /* Fallback color */
-    background-image: radial-gradient(circle closest-side at 25% 75%, red, 
-    yellow 10%, dodgerblue 50%);
+    max-width: 600px;
+    width: 100%;
+    max-height: 1200px;
+    height: 100%;
+    /* background-color: red; /* Fallback color */
+    /*background-image: radial-gradient(circle closest-side at 25% 75%, red, 
+    yellow 10%, dodgerblue 50%); */
     overflow: auto;
     
   }  
-  /* @media screen and (max-width: 400px) {
-
-    html, body {
-    
-      margin-top: 0;
-      margin-bottom: 0;
-      border: none;
-      height: auto;
-      overflow-x: hidden;
-      text-align: center;
-    }
-  
-    .menu,
-    .order-container,
-    .all-orders,
-    .total-text, 
-    .header{
-      width: 90%;
-      margin-left: auto;
-      margin-right: auto;
-      overflow-x: hidden;
-    }
-    .header{
-        width: 100%;
-        background-image: url('images/burger.png');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-  
-    .item1 {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      padding-left: .63em;
-      padding-right: .63em;;
-      overflow: hidden;
-    }
-  
-    .emoji {
-      margin-bottom: .63em;;
-    }
-  
-    .btn-complete,
-    .total-text,
-    .submit-btn{
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .btn-complete{
-        display: flex;
-        justify-content: center;
-        margin: 0;
-
-    }
-  } */
   
     
    
 
 body{
-    max-width: 600px;
+    /* max-width: 600px;
     width: 100%;
-    height: auto;
-    margin: auto;
+    max-height: 900px;
+    height: 100%; */
+    margin: 0 auto;
     background-color: #F5F5F5 ;
-    border: 2px ridge rgba(75, 50, 220, 0.6);
-    overflow: auto;
     position: relative;
     
 }
@@ -162,7 +108,7 @@ h1{
     display: flex;
     max-width: 508px;
     width: 100%;
-    height: auto;
+    height: 100%;
     border-bottom: .2em ridge rgba(75, 50, 220, 0.6);
     
     
@@ -432,3 +378,63 @@ h1{
     margin-bottom: 0;
     margin-top: 1.25em;
 }
+
+/* media */
+
+@media screen and (min-width 480px) {
+
+    html, body {
+    
+      margin-top: 0;
+      margin-bottom: 0;
+      border: none;
+      height: auto;
+      overflow-x: hidden;
+      text-align: center;
+    }
+  
+    .menu,
+    .order-container,
+    .all-orders,
+    .total-text, 
+    .header{
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      overflow-x: hidden;
+    }
+    .header{
+        width: 100%;
+        background-image: url('images/burger.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+  
+    .item1 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding-left: .63em;
+      padding-right: .63em;;
+      overflow: hidden;
+    }
+  
+    .emoji {
+      margin-bottom: .63em;;
+    }
+  
+    .btn-complete,
+    .total-text,
+    .submit-btn{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .btn-complete{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+
+    }
+  } */
+  

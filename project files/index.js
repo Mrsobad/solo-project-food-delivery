@@ -42,6 +42,7 @@ let arr = []
   
   closeBtn.addEventListener("click", function(){
     form.style.visibility = "hidden"
+    main.classList.remove("blur")
   })
 
 
