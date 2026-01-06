@@ -107,7 +107,7 @@ let arr = []
       priceElement.id = "total-price"
       priceElement.innerHTML =`
       <div class="total-container">
-        <p class="total-text">Total price: <span class=total> $${totalPrice}</span></p>
+        <p class="total-text">Total price: <span class="total"> $${totalPrice}</span></p>
         <button class="btn-complete" id="complete-order-btn">Complete order</button>
       </div>
       `

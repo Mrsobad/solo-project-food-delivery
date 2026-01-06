@@ -8,7 +8,7 @@ html{
     overflow: auto;
     
   }  
-  @media screen and (max-width: 400px) {
+  /* @media screen and (max-width: 400px) {
 
     html, body {
     
@@ -63,7 +63,7 @@ html{
         margin: 0;
 
     }
-  }
+  } */
   
     
    
@@ -71,7 +71,7 @@ html{
 body{
     max-width: 600px;
     width: 100%;
-    height: 100vh;
+    height: auto;
     margin: auto;
     background-color: #F5F5F5 ;
     border: 2px ridge rgba(75, 50, 220, 0.6);
@@ -96,13 +96,12 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
    
 }
 
-
 .title-name{
     padding-top: 3.75em;
-    padding-left: 3.13em;
 }
 h1, .sub-title{
     margin-top: 0;
@@ -121,14 +120,14 @@ h1{
 
  .main{
     height: auto;
-    
  }
 
 
 .food-name, 
 .food-item, 
 .food-price{
-    line-height: 12px;
+    line-height: .5em;
+    
 }
 
 .food-name{
@@ -154,18 +153,16 @@ h1{
     margin: 0 auto;
     
     text-align: start;
-    
 }
 
 .item1{
-    margin: auto;
+    padding: 1em;
+    margin: 0 auto;
     display: flex;
-    margin-top: 2.5em;
     max-width: 508px;
     width: 100%;
     height: auto;
-    padding-bottom: 50px;
-    border-bottom: 1mm ridge rgba(75, 50, 220, 0.6);
+    border-bottom: .2em ridge rgba(75, 50, 220, 0.6);
     
     
     
@@ -191,12 +188,16 @@ h1{
     font-size: 1.5rem;
     color: black;
     display: flex;
-    width: 50px;
-    height: 50px;
+    max-width: 50px;
+    width: 100%;
+    max-height: 50px;
+    height: 100%;
     border-radius: 50%;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     border: 2px solid black;
+   
+    
     
 }
 .btn-div{
@@ -205,14 +206,20 @@ h1{
     align-items: center;
     max-width: 50px;
     width: 100%;
+    padding-left: 1.5em;
+    margin-right: 3em;
     
 }
 
 .submit-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 475.91px;
     width: 100%;
-    max-height: 71.3px;
-    height: 100%;
+    margin-top: 1em;
+    
+    height: auto;
     background-color: #16DB99;
     color: #FFFFFF;
     border: none;
@@ -224,15 +231,15 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 3.13em;
     max-width: 508px;
     width: 100%;
-    max-height: 60px;
-    height: 100%;
+    height: auto;
     background-color: #16DB99;
     color: #FFFFFF;
     border: none;
     font-size: 1.25rem;
+    padding-bottom: 2em;
+    padding-top: 2em;
     cursor: pointer;
     
 }
@@ -272,13 +279,14 @@ h1{
     max-width: 508px;
     width: 100%;
     margin: auto;
+
 }
 
 .all-orders{
     display: flex;
     flex-direction: row;
-    margin: auto;
-    margin-top: 0;
+    margin: 0 auto;
+    
     max-width: 508px;
     width: 100%;
     height: auto;
@@ -312,24 +320,32 @@ h1{
     justify-content: center;
     margin-bottom: 3.13em;
     margin-top: 3.13em;
-  
-
-    
+}
+.order-name, .btn-remove{
+    padding-left: .5em;
+}
+.order-price{
+    padding-right: 1em;
 }
 
 /* total */
 
+.total{
+    padding-right: 1.5em;
+}
+
 .total-text{
+    margin-top: .5em;
     border-top: 1mm ridge rgba(75, 50, 220, 0.6);
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     font-size: 1.75rem;
-    margin-left: auto;
-    margin-right: auto;
     max-width: 508px;
     width: 100%;
     color: #000000;
+    padding-left: .5em;
 }
 
 
@@ -348,7 +364,7 @@ h1{
     bottom: 0;
     margin: auto;
     max-width: 524px;
-    width: 100%;
+    width: 80%;
     height: 75%;
     background-color: #fff;  
     border: 4mm ridge rgba(75, 50, 220, 0.6);
@@ -372,7 +388,7 @@ h1{
     width: 100%;
     max-height: 71.3px;
     height: 100%;
-    margin-bottom: 1.25em;
+    margin-bottom: 2em;
     color: #757575;
 }
 
@@ -383,12 +399,12 @@ h1{
     visibility: hidden;
     margin: auto;
     position: absolute;
-    right: 0%;
+    right: 64%;
     left: 0%;
-    top: 10%;
+    top: 40%;
     bottom: 2%;
     max-width: 504px;
-    width: 100%;
+    width: 90%;
     max-height: 120px;
     height: 100%;
     background-color: rgba(148, 34, 230, 0.538);  
@@ -398,7 +414,7 @@ h1{
 }
 .thank-you-msg{
     display: flex;
-    margin: 1em auto;
+    
     align-items: center;
     justify-content: center;
     font-size: 2rem;
