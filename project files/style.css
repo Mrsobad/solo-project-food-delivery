@@ -381,7 +381,7 @@ h1{
 
 /* media */
 
-@media screen and (min-width 480px) {
+@media screen and (min-width :480px) {
 
     html, body {
     
@@ -436,5 +436,5 @@ h1{
         margin: 0;
 
     }
-  } */
+  } 
   
